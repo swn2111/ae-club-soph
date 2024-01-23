@@ -1,0 +1,31 @@
+[0m21:54:06.549200 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3fa189abf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3fa205ceb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3fa205ce50>]}
+
+
+============================== 21:54:06.551993 | d19e4532-93f4-48c0-97ca-679f4e2061be ==============================
+[0m21:54:06.551993 [info ] [MainThread]: Running with dbt=1.7.5
+[0m21:54:06.552665 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/home/vscode/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m21:54:06.553182 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/vscode/.dbt')}
+[0m21:54:06.553682 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m21:54:33.154036 [debug] [MainThread]: Starter project path: /home/vscode/.local/lib/python3.10/site-packages/dbt/include/starter_project
+[0m21:54:33.160684 [info ] [MainThread]: 
+Your new dbt project "coffee_shop_soph" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:54:33.161934 [info ] [MainThread]: Setting up your profile.
+[0m21:55:16.658283 [info ] [MainThread]: Profile coffee_shop_soph written to /home/vscode/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:55:16.659892 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 70.11326, "process_user_time": 2.258919, "process_kernel_time": 0.143458, "process_mem_max_rss": "108116", "process_in_blocks": "72", "process_out_blocks": "88"}
+[0m21:55:16.660589 [debug] [MainThread]: Command `dbt init` succeeded at 21:55:16.660429 after 70.11 seconds
+[0m21:55:16.661064 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3fa189abf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f9e6cfd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f9e6cf0a0>]}
+[0m21:55:16.661563 [debug] [MainThread]: Flushing usage events
